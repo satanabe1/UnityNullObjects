@@ -1,0 +1,4 @@
+is a UnityObject
+destroied          : [True]
+destroiedImmediate : [True]
+nullBehaviour      : [False]

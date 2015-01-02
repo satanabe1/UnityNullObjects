@@ -1,0 +1,7 @@
+EqualsNull
+destroied                 : [True]
+destroiedImmediate        : [True]
+nullBehaviour             : [True]
+(cast) destroied          : [False]
+(cast) destroiedImmediate : [False]
+(cast) nullBehaviour      : [True]

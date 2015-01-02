@@ -1,0 +1,28 @@
+=====  GetType  =====
+---
+destroied          : [UnityEngine.MonoBehaviour]
+---
+destroiedImmediate : [UnityEngine.MonoBehaviour]
+---
+System.NullReferenceException: Object reference not set to an instance of an object
+  at NullTest04+<Start>c__Iterator3.MoveNext () [0x0011d] in /Users/wtnbsts/Dropbox/unity/Null/Assets/NullTest04.cs:32 
+=====  GetComponentInParent  =====
+---
+UnityEngine.MissingReferenceException: The object of type 'MonoBehaviour' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+  at (wrapper managed-to-native) UnityEngine.Component:InternalGetGameObject ()
+  at UnityEngine.Component.get_gameObject () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Component.GetComponentInParent (System.Type t) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Component.GetComponentInParent[Component] () [0x00000] in <filename unknown>:0 
+  at NullTest04+<Start>c__Iterator3.MoveNext () [0x0016d] in /Users/wtnbsts/Dropbox/unity/Null/Assets/NullTest04.cs:39 
+---
+UnityEngine.MissingReferenceException: The object of type 'MonoBehaviour' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+  at (wrapper managed-to-native) UnityEngine.Component:InternalGetGameObject ()
+  at UnityEngine.Component.get_gameObject () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Component.GetComponentInParent (System.Type t) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Component.GetComponentInParent[Component] () [0x00000] in <filename unknown>:0 
+  at NullTest04+<Start>c__Iterator3.MoveNext () [0x001b5] in /Users/wtnbsts/Dropbox/unity/Null/Assets/NullTest04.cs:45 
+---
+System.NullReferenceException: Object reference not set to an instance of an object
+  at NullTest04+<Start>c__Iterator3.MoveNext () [0x001fd] in /Users/wtnbsts/Dropbox/unity/Null/Assets/NullTest04.cs:51 
